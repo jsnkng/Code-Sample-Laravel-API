@@ -1,0 +1,86 @@
+body {
+    padding:30px;
+}
+.col-error,
+.col-auto {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    float: left; 
+}
+.col-error {
+    padding-left: 0;
+}
+.col-auto + .col-auto {
+    padding-left: 10px;
+    padding-right: 15px;     
+}
+.checkbox-inline p,
+.checkbox-inline select,
+.col-auto > * {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    *vertical-align: top;
+    width: auto;
+}
+.form-control.inline {
+    display: inline-block;
+    width: auto;
+}
+.inline-fix {
+    margin-bottom: 5px;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.has-feedback .form-control-feedback.glyphicon-ok,
+.has-feedback .form-control-feedback.glyphicon-remove,
+.has-feedback .form-control-feedback.glyphicon-warning {
+    right: -15px !important;
+    display: none !important;
+}
+
+.glyphicon-calendar {
+    color: #005590 !important;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.has-success.has-feedback .form-control-feedback.glyphicon-ok,
+.has-error.has-feedback .form-control-feedback.glyphicon-remove {
+    display: block !important;
+}
+
+.form-group .help-block {
+    margin-bottom: -5px;
+}
+
+.form-group.required label.control-label:before {
+    content: '*';
+    color: red !important;
+}
+
+/* MOBISCROLL FIXES */
+.bootstrap .dw-bubble-bottom .dw-arrw {
+    top: -36px;
+}
+.bootstrap .dw-bubble-top .dw-arrw {
+    bottom: -36px;
+}
+.bootstrap .popover .popover-content .popover-title {
+    display: none;
+}
+
+[mobiscroll-calendar][readonly] {
+    cursor: auto;
+    background-color: #fff;
+    cursor: text;
+}
+
+#save-iframe,
+#print-iframe {
+    display: none !important;
+}

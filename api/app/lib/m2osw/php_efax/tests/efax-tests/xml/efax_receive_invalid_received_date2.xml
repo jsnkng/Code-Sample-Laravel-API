@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- test the inbound parser with an empty test -->
+<InboundPostRequest>
+    <AccessControl>
+        <UserName>my username</UserName>
+        <Password>secret password</Password>
+    </AccessControl>
+    <RequestControl>
+    </RequestControl>
+    <FaxControl>
+        <DateReceived>12:12:12</DateReceived>
+        <UserFieldControl>
+            <UserFields>
+                <UserField>
+                </UserField>
+            </UserFields>
+        </UserFieldControl>
+        <BarcodeControl>
+            <Barcodes>
+                <Barcode>
+                    <AdditionalInfo>
+                        <CodeLocation>
+                            <PageCoordinates>
+                                <StartEdge>
+                                </StartEdge>
+                                <EndEdge>
+                                </EndEdge>
+                            </PageCoordinates>
+                        </CodeLocation>
+                    </AdditionalInfo>
+                </Barcode>
+                <Barcode>
+                    <AdditionalInfo>
+                        <CodeLocation>
+                            <PageCoordinates>
+                                <StartEdge>
+                                </StartEdge>
+                                <EndEdge>
+                                </EndEdge>
+                            </PageCoordinates>
+                        </CodeLocation>
+                    </AdditionalInfo>
+                </Barcode>
+            </Barcodes>
+        </BarcodeControl>
+        <PageContentControl>
+            <Pages>
+                <Page>
+                </Page>
+            </Pages>
+        </PageContentControl>
+    </FaxControl>
+</InboundPostRequest>

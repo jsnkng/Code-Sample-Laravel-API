@@ -1,0 +1,25 @@
+id,name,region_id
+ID101,"New England",ID1
+ID102,"NY   CT   RI",ID1
+ID103,"Manhattan   Long Island",ID1
+ID104,NJ,ID1
+ID106,"Maryland  DC   Delaware",ID1
+ID107,"The Virginias",ID1
+ID201,"Alabama   Georgia",ID2
+ID203,Florida,ID2
+ID205,"Louisiana   Mississippi",ID2
+ID207,Dallas,ID2
+ID208,Houston,ID2
+ID209,Carolinas,ID2
+ID303,"Great Plains",ID3
+ID304,"Utah   Montana   Colorado   New Mexico",ID3
+ID305,"Arizona   San Diego",ID3
+ID306,"Pacific Northwest",ID3
+ID307,"Southern California",ID3
+ID308,"San Francisco",ID3
+ID401,"Wisconsin   Chicago",ID4
+ID402,"Missouri   Illinois   KS",ID4
+ID404,"KY   Tennessee",ID4
+ID405,PA,ID4
+ID409,OH,ID4
+ID410,"Michigan   Indiana",ID4

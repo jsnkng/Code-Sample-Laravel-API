@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@package_version@" timestamp="2014-04-03T00:42:26-04:00">
+  <file name="/Users/jasonking/Sites/cdm.synagis-etoc.web/trunk/api/app/lib/Synagis/ETOC/efax.php">
+    <violation beginline="72" endline="72" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$encodexml'.
+    </violation>
+  </file>
+  <file name="/Users/jasonking/Sites/cdm.synagis-etoc.web/trunk/api/app/lib/Synagis/ETOC/pdf.php">
+    <violation beginline="52" endline="52" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $fp. Configured minimum length is 3.
+    </violation>
+    <violation beginline="65" endline="65" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $im. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/Users/jasonking/Sites/cdm.synagis-etoc.web/trunk/api/app/tests/ExampleTest.php">
+    <violation beginline="12" endline="12" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$crawler'.
+    </violation>
+  </file>
+  <file name="/Users/jasonking/Sites/cdm.synagis-etoc.web/trunk/api/app/tests/TestCase.php">
+    <violation beginline="12" endline="12" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$unitTesting'.
+    </violation>
+    <violation beginline="14" endline="14" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$testEnvironment'.
+    </violation>
+  </file>
+</pmd>

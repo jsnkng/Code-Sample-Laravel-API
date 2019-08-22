@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- test the inbound parser with an empty test -->
+<InboundPostRequest>
+    <AccessControl>
+        <UserName>bad name</UserName>
+        <Password>secret password</Password>
+    </AccessControl>
+</InboundPostRequest>

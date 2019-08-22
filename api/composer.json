@@ -1,0 +1,57 @@
+{
+	"name": "laravel/laravel",
+	"description": "The Laravel Framework.",
+	"keywords": ["framework", "laravel"],
+	"license": "MIT",
+	"require": {
+		"laravel/framework": "4.1.*",
+	    "itbz/fpdi": "1.*",
+	    "itbz/fpdf": "1.*",
+        "campaignmonitor/createsend-php": "dev-master",
+	    "flynsarmy/csv-seeder": "1.0.*",
+	    "aura/http": "1.0.*",
+		"mailgun/mailgun-php": "~1.7"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php",
+			"app/lib/m2osw"
+		],
+		"psr-0": {
+			"m2osw": "app/lib"
+		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-update-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable",
+	"require-dev": {
+		"squizlabs/php_codesniffer": "1.*",
+		"phpunit/phpunit": "3.7.*",
+		"phpdocumentor/phpdocumentor": "2.*",
+		"phploc/phploc": "*",
+		"sensiolabs/security-checker": "1.3.*@dev",
+		"phpmd/phpmd": "1.4.*",
+		"pdepend/pdepend": "1.1.*",
+	    "fzaninotto/faker": "1.4.*@dev",
+	    "way/generators": "2.*"
+	}
+}

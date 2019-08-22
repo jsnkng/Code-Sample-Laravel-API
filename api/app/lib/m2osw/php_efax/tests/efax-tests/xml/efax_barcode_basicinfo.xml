@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Test that we can read a file with a key and the basic info -->
+<Barcode>
+    <Key>Basic Info Test</Key>
+    <AdditionalInfo>
+        <ReadSequence>951</ReadSequence>
+        <ReadDirection>2-Dimentional</ReadDirection>
+        <Symbology>ANSI-1354</Symbology>
+    </AdditionalInfo>
+</Barcode>

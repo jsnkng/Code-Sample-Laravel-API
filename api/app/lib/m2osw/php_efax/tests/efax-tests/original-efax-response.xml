@@ -1,0 +1,20 @@
+1cc
+<?xml version="1.0"?>
+<OutboundResponse>
+  <Transmission>
+    <TransmissionControl>
+      <TransmissionID></TransmissionID>
+      <DOCID></DOCID>
+    </TransmissionControl>
+    <Response>
+      <StatusCode>2</StatusCode>
+      <StatusDescription>Failure</StatusDescription>
+      <ErrorLevel>User</ErrorLevel>
+      <ErrorMessage>TransmissionID required when NoDuplicates option is enabled.</ErrorMessage>
+    </Response>
+  </Transmission>
+</OutboundResponse>
+
+0
+
+

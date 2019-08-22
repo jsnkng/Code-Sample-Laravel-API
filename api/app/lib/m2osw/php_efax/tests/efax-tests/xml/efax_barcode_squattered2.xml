@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Test that we can read a file with everything -->
+<Barcode>
+    <AdditionalInfo>
+        <ReadDirection>Right/Left</ReadDirection>
+        <CodeLocation>
+            <PageNumber>1001</PageNumber>
+            <PageCoordinates>
+                <StartEdge>
+                    <XStartPointA>1.03</XStartPointA>
+                    <YStartPointA>2.06</YStartPointA>
+                    <XStartPointB>3.09</XStartPointB>
+                    <YStartPointB>4.12</YStartPointB>
+                </StartEdge>
+                <EndEdge>
+                </EndEdge>
+            </PageCoordinates>
+        </CodeLocation>
+    </AdditionalInfo>
+</Barcode>

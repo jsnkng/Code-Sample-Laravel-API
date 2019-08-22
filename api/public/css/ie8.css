@@ -1,0 +1,8 @@
+.has-feedback select {
+    padding-right: 0 !important;
+}
+select.form-control {
+    height: 22px;
+    padding: 0;
+    margin-top: 5px;
+}

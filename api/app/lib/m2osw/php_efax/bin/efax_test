@@ -1,0 +1,128 @@
+#!/bin/sh
+#
+#    All Rights Reserved.
+#
+#    This software and its associated documentation contains
+#    proprietary, confidential and trade secret information
+#    of Made to Order Software Corp. and except as provided by
+#    written agreement with Made to Order Software Corp.
+#
+#    a) no part may be disclosed, distributed, reproduced,
+#       transmitted, transcribed, stored in a retrieval system,
+#       adapted or translated in any form or by any means
+#       electronic, mechanical, magnetic, optical, chemical,
+#       manual or otherwise,
+#
+#    and
+#
+#    b) the recipient is not entitled to discover through reverse
+#       engineering or reverse compiling or other such techniques
+#       or processes the trade secrets contained therein or in the
+#       documentation.
+#
+
+set -e
+
+BARCODE=false
+SEND=false
+DISPOSITION=false
+RECEIVE=false
+HELP=false
+while test -n "$1"
+do
+    case "$1" in
+    -a)
+        BARCODE=true
+        SEND=true
+        DISPOSITION=true
+        RECEIVE=true
+        ;;
+
+    -b)
+        BARCODE=true
+        SEND=false
+        DISPOSITION=false
+        RECEIVE=false
+        ;;
+
+    -s)
+        BARCODE=false
+        SEND=true
+        DISPOSITION=false
+        RECEIVE=false
+        ;;
+
+    -d)
+        BARCODE=false
+        SEND=false
+        DISPOSITION=true
+        RECEIVE=false
+        ;;
+
+    -r)
+        BARCODE=false
+        SEND=false
+        DISPOSITION=false
+        RECEIVE=true
+        ;;
+
+    -h)
+        HELP=true
+        ;;
+
+    *)
+        HELP=true
+        echo "efax_test: error: unknown command line option \"$1\". Try -h for more info."
+        exit 1
+        ;;
+
+    esac
+    shift
+done
+
+if $HELP
+then
+    echo "Usage: $0 [-opts]"
+    echo "where -opts is one of:"
+    echo "  -a    Run all the tests (default)"
+    echo "  -b    Run the barcode tests"
+    echo "  -s    Run the send tests"
+    echo "  -d    Run the disposition tests"
+    echo "  -r    Run the receive tests"
+    echo "  -h    Print out this help screen"
+    exit 1;
+fi
+
+# By default, assume -a
+if ! $BARCODE && ! $SEND && ! $DISPOSITION && ! $RECEIVE
+then
+    BARCODE=true
+    SEND=true
+    DISPOSITION=true
+    RECEIVE=true
+fi
+
+if $BARCODE
+then
+    php tests/efax-tests/efax_barcode.php
+fi
+
+if $SEND
+then
+    echo "warning: skipping php4 test (efax_send.php4)"
+    #php tests/efax-tests/efax_send.php4
+fi
+
+if $DISPOSITION
+then
+    echo "warning: disposition test does not exist yet"
+    #php tests/efax-tests/efax_disposition.php
+fi
+
+if $RECEIVE
+then
+    php tests/efax-tests/efax_receive.php
+    echo "warning: skipping php4 test (efax_receive.php4)"
+    #php tests/efax-tests/efax_receive.php4
+fi
+

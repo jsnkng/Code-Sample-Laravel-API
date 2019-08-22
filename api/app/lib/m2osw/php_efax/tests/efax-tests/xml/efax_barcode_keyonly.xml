@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!-- Test that we can read a file with just a key -->
+<Barcode>
+    <Key>Key Only Test</Key>
+</Barcode>

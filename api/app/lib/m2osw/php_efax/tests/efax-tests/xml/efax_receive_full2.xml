@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!-- test the inbound parser with an empty test -->
+<InboundPostRequest>
+    <AccessControl>
+        <UserName>my username</UserName>
+        <Password>secret password</Password>
+    </AccessControl>
+    <RequestControl>
+        <RequestDate>02/14/2008 00:01:02</RequestDate>
+        <RequestType>New Fax</RequestType>
+    </RequestControl>
+    <FaxControl>
+        <AccountID>9165551212</AccountID>
+        <DateReceived>11/30/1995 19:41:09</DateReceived>
+        <FaxName>Some Name</FaxName>
+        <FileType>pdf</FileType>
+        <Status>7</Status>
+        <PageCount>2</PageCount>
+        <CSID>m2osw.com</CSID>
+        <ANI>9169881450</ANI>
+        <MCFID>Unique Identifier</MCFID>
+        <UserFieldControl>
+            <UserFields>
+                <UserField>
+                    <FieldName>field_a</FieldName>
+                    <FieldValue>content1</FieldValue>
+                </UserField>
+                <UserField>
+                    <FieldName>field_c</FieldName>
+                    <FieldValue>content5</FieldValue>
+                </UserField>
+                <UserField>
+                    <FieldName>field_b</FieldName>
+                    <FieldValue>content3</FieldValue>
+                </UserField>
+            </UserFields>
+        </UserFieldControl>
+        <BarcodeControl>
+            <Barcodes>
+                <Barcode>
+                    <Key>1st barcode</Key>
+                    <AdditionalInfo>
+                        <ReadSequence>1</ReadSequence>
+                        <ReadDirection>Bottom/Top</ReadDirection>
+                        <Symbology>BC1</Symbology>
+                        <CodeLocation>
+                            <PageNumber>1</PageNumber>
+                            <PageCoordinates>
+                                <StartEdge>
+                                    <XStartPointA>1.03</XStartPointA>
+                                    <YStartPointA>2.06</YStartPointA>
+                                    <XStartPointB>3.09</XStartPointB>
+                                    <YStartPointB>4.12</YStartPointB>
+                                </StartEdge>
+                                <EndEdge>
+                                    <XEndPointA>12.001</XEndPointA>
+                                    <YEndPointA>13.207</YEndPointA>
+                                    <XEndPointB>14.903</XEndPointB>
+                                    <YEndPointB>15.008</YEndPointB>
+                                </EndEdge>
+                            </PageCoordinates>
+                        </CodeLocation>
+                    </AdditionalInfo>
+                </Barcode>
+                <Barcode>
+                    <Key>2nd barcode</Key>
+                    <AdditionalInfo>
+                        <ReadSequence>2</ReadSequence>
+                        <ReadDirection>Top/Bottom</ReadDirection>
+                        <Symbology>BC2</Symbology>
+                        <CodeLocation>
+                            <PageNumber>1</PageNumber>
+                            <PageCoordinates>
+                                <StartEdge>
+                                    <XStartPointA>9.03</XStartPointA>
+                                    <YStartPointA>8.06</YStartPointA>
+                                    <XStartPointB>7.09</XStartPointB>
+                                    <YStartPointB>6.12</YStartPointB>
+                                </StartEdge>
+                                <EndEdge>
+                                    <XEndPointA>32.041</XEndPointA>
+                                    <YEndPointA>33.267</YEndPointA>
+                                    <XEndPointB>34.983</XEndPointB>
+                                    <YEndPointB>35.028</YEndPointB>
+                                </EndEdge>
+                            </PageCoordinates>
+                        </CodeLocation>
+                    </AdditionalInfo>
+                </Barcode>
+            </Barcodes>
+        </BarcodeControl>
+        <PageContentControl>
+            <Pages>
+                <Page>
+                    <PageNumber>1</PageNumber>
+                    <!--
+                        The content is uuencoded in base64 with (ignore the 1st & last lines):
+                        echo -e 'Page one of the second test\c' | uuencode -m out.txt
+                    -->
+                    <PageContents>UGFnZSBvbmUgb2YgdGhlIHNlY29uZCB0ZXN0</PageContents>
+                </Page>
+                <Page>
+                    <PageNumber>2</PageNumber>
+                    <!--
+                        The content is uuencoded in base64 with (ignore the 1st & last lines):
+                        echo -e 'Second and last page of the 2nd test!\c' | uuencode -m out.txt
+                    -->
+                    <PageContents>U2Vjb25kIGFuZCBsYXN0IHBhZ2Ugb2YgdGhlIDJuZCB0ZXN0IQ==</PageContents>
+                </Page>
+            </Pages>
+        </PageContentControl>
+    </FaxControl>
+</InboundPostRequest>

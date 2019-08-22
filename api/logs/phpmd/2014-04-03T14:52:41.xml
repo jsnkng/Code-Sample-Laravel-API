@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@package_version@" timestamp="2014-04-03T14:52:41-04:00">
+  <file name="/Users/jasonking/Sites/cdm.synagis-etoc.web/trunk/api/app/lib/Synagis/ETOC/form.php">
+    <violation beginline="14" endline="164" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Synagis\ETOC" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Form" method="__construct" priority="3">
+      The method __construct() has a Cyclomatic Complexity of 14. The configured cyclomatic complexity threshold is 10.
+    </violation>
+    <violation beginline="14" endline="164" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Synagis\ETOC" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Form" method="__construct" priority="3">
+      The method __construct() has 151 lines of code. Current threshold is set to 100. Avoid really long methods.
+    </violation>
+  </file>
+</pmd>

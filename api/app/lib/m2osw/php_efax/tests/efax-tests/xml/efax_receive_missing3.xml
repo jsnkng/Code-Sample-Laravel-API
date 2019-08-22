@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- test the inbound parser with an empty test -->
+<InboundPostRequest>
+    <AccessControl>
+        <UserName>ignored username</UserName>
+    </AccessControl>
+</InboundPostRequest>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- test an empty barcode control set with containers -->
+<Barcode>
+    <AdditionalInfo>
+        <CodeLocation>
+        </CodeLocation>
+    </AdditionalInfo>
+</Barcode>

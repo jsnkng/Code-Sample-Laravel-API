@@ -1,0 +1,18 @@
+.form-group {
+    clear: both;
+}
+.col-auto {
+    padding-left: 0;
+}
+.col-auto + .col-auto {
+    padding-top: 7px;
+}
+.form-control {
+    height: 22px;
+}
+div > select.form-control {
+    margin-top: 5px;
+}
+[class^="col-"] > select:first-child {
+    margin-left: -15px;
+} 

@@ -1,0 +1,193 @@
+id,name,area_id
+ID101B01,Maine,ID101
+ID101B02,"Vermont/New Hampshire",ID101
+ID101B03,"Boston North",ID101
+ID101B04,Boston,ID101
+ID101B05,"Boston South",ID101
+ID101B06,"Metro West",ID101
+ID101B07,"Western Massachusetts",ID101
+ID102B01,"Providence RI",ID102
+ID102B02,"Hartford CT",ID102
+ID102B03,"New Haven CT",ID102
+ID102B04,"White Plains NY",ID102
+ID102B05,"Bronx NY",ID102
+ID102B06,"Albany NY",ID102
+ID102B07,"Middletown NY",ID102
+ID102B08,"Syracuse NY",ID102
+ID102B09,"Buffalo NY",ID102
+ID103B01,"Eastern Long Island",ID103
+ID103B02,"North Shore",ID103
+ID103B03,"South Shore",ID103
+ID103B04,"North Brooklyn NY",ID103
+ID103B05,"South Brooklyn NY",ID103
+ID103B06,"Manhattan/Queens NY",ID103
+ID103B07,"Manhattan NY",ID103
+ID104B01,"Bergen NJ",ID104
+ID104B02,"Jersey City/Newark NJ",ID104
+ID104B03,"Edison NJ",ID104
+ID104B04,"Central New Jersey",ID104
+ID104B05,"Atlantic City NJ",ID104
+ID104B07,"Morristown NJ",ID104
+ID104B08,"Camden/Trenton NJ",ID104
+ID106B01,"Wilmington DE",ID106
+ID106B02,"Annapolis MD",ID106
+ID106B03,"Baltimore MD",ID106
+ID106B04,"Bethesda MD",ID106
+ID106B05,"Washington DC",ID106
+ID106B06,"Frederick MD",ID106
+ID106B07,"Alexandria VA",ID106
+ID107B01,"Virginia Beach VA",ID107
+ID107B02,"Richmond VA",ID107
+ID107B03,Charlottesville,ID107
+ID107B04,"Manassas VA",ID107
+ID107B05,"Charleston WV",ID107
+ID107B06,"Roanoke VA",ID107
+ID201B03,"Savannah GA",ID201
+ID201B05,"Augusta GA",ID201
+ID201B06,"Albany GA",ID201
+ID201B07,"Atlanta North GA",ID201
+ID201B08,"Atlanta East GA",ID201
+ID201B09,"Atlanta South GA",ID201
+ID201B10,"Atlanta West GA",ID201
+ID201B11,"Birmingham South AL",ID201
+ID201B12,"Montgomery AL",ID201
+ID201B13,"Birmingham North AL",ID201
+ID201B14,"Huntsville AL",ID201
+ID203B01,"Orlando FL",ID203
+ID203B02,"West Palm Beach FL",ID203
+ID203B03,"Fort Lauderdale FL",ID203
+ID203B04,"Miami FL",ID203
+ID203B05,"Lakeland FL",ID203
+ID203B06,"Tampa FL",ID203
+ID203B07,"Sarasota FL",ID203
+ID203B08,"Puerto Rico",ID203
+ID203B09,"Pensacola FL",ID203
+ID203B10,"Jacksonville FL",ID203
+ID203B11,"Gainesville FL",ID203
+ID205B01,"Tupelo MS",ID205
+ID205B02,"Jackson MS",ID205
+ID205B03,"Metairie LA",ID205
+ID205B04,"New Orleans LA",ID205
+ID205B05,"Lafayette LA",ID205
+ID205B06,"Shreveport LA",ID205
+ID205B07,"Lake Charles LA",ID205
+ID207B01,"Tyler TX",ID207
+ID207B02,"Waco TX",ID207
+ID207B03,"Austin TX",ID207
+ID207B04,"Dallas North TX",ID207
+ID207B05,"Dallas Central TX",ID207
+ID207B06,"Arlington TX",ID207
+ID207B07,"Forth Worth TX",ID207
+ID207B08,"Lubbock TX",ID207
+ID208B01,"Beaumont TX",ID208
+ID208B02,"Houston East TX",ID208
+ID208B03,"Houston North TX",ID208
+ID208B04,"Houston West TX",ID208
+ID208B05,"Houston Southwest TX",ID208
+ID208B06,"San Antonio East TX",ID208
+ID208B07,"McAllen TX",ID208
+ID208B08,"San Antonio West TX",ID208
+ID208B09,"El Paso TX",ID208
+ID209B01,"Columbia SC",ID209
+ID209B02,"Charleston SC",ID209
+ID209B03,"Greenville SC",ID209
+ID209B04,"Wilmington NC",ID209
+ID209B05,"Fayetteville NC",ID209
+ID209B06,"Charlotte NC",ID209
+ID209B07,"Hickory NC",ID209
+ID209B08,"Durham NC",ID209
+ID209B09,"Raleigh NC",ID209
+ID209B10,"Winston Salem NC",ID209
+ID303B01,"North Dakota / Northern Minnesota",ID303
+ID303B02,"St Paul MN",ID303
+ID303B03,"La Crosse WI",ID303
+ID303B04,"Quad Cities",ID303
+ID303B05,"Minneapolis MN",ID303
+ID303B06,"Des Moines IA",ID303
+ID303B07,"Omaha NE",ID303
+ID303B08,"South Dakota",ID303
+ID303B09,"Wichita KS",ID303
+ID303B10,"Kansas City",ID303
+ID304B01,"Wyoming / Fort Collins",ID304
+ID304B02,"Denver Metro East",ID304
+ID304B03,"Colorado Springs CO / Northern NM",ID304
+ID304B04,"New Mexico",ID304
+ID304B05,"Denver Metro West",ID304
+ID304B06,"Utah South",ID304
+ID304B07,"Northern Nevada / Salt Lake City Metro West",ID304
+ID305B01,"Phoenix North",ID305
+ID305B02,"Tucson AZ",ID305
+ID305B03,"Las Vegas NV",ID305
+ID305B04,"Phoenix South",ID305
+ID305B05,"San Bernardino CA",ID305
+ID305B06,"San Diego South",ID305
+ID305B07,"San Diego North",ID305
+ID306B01,"Montana/Eastern Washington",ID306
+ID306B02,"Idaho/Northeast Oregon",ID306
+ID306B03,"Seattle North",ID306
+ID306B04,"Seattle South",ID306
+ID306B05,"Portland East",ID306
+ID306B06,"Portland West",ID306
+ID306B07,Alaska,ID306
+ID307B01,"Ontario CA",ID307
+ID307B02,"Orange County CA",ID307
+ID307B03,"Anaheim CA",ID307
+ID307B04,"Los Angeles North",ID307
+ID307B05,"Los Angeles East",ID307
+ID307B07,"Los Angeles West",ID307
+ID307B08,Hawaii,ID307
+ID308B01,"Fresno CA",ID308
+ID308B02,"San Fernando Valley",ID308
+ID308B03,"Sacramento CA",ID308
+ID308B04,"Modesto CA",ID308
+ID308B05,"San Francisco CA",ID308
+ID308B06,"San Jose CA",ID308
+ID308B07,"Northern California",ID308
+ID401B01,"Green Bay WI",ID401
+ID401B02,"Milwaukee North",ID401
+ID401B03,"Milwaukee South",ID401
+ID401B04,"Chicago North",ID401
+ID401B05,"Chicago Central",ID401
+ID401B06,"Chicago South",ID401
+ID401B07,"Chicago Northwest",ID401
+ID401B08,"Chicago Southwest",ID401
+ID402B01,"Northwest Indiana / Champaign Urbana IL",ID402
+ID402B02,"Southern Illinois",ID402
+ID402B03,"Springfield IL",ID402
+ID402B04,"St Louis",ID402
+ID402B05,"Columbia MO",ID402
+ID402B06,"Springfield MO",ID402
+ID402B07,"Fayetteville AR",ID402
+ID402B08,"Little Rock AR",ID402
+ID402B09,"Tulsa OK",ID402
+ID402B10,"Oklahoma City OK",ID402
+ID404B01,"Knoxville TN",ID404
+ID404B02,"Lexington KY",ID404
+ID404B03,"Elizabethtown KY",ID404
+ID404B04,"Chattanooga TN",ID404
+ID404B05,"Nashville TN",ID404
+ID404B06,"Louisville KY",ID404
+ID404B07,"Owensboro KY",ID404
+ID404B08,"Jackson TN",ID404
+ID404B09,"Memphis TN",ID404
+ID405B01,"Philadelphia North",ID405
+ID405B03,"Philadelphia West",ID405
+ID405B04,"Scranton PA",ID405
+ID405B05,"Reading PA",ID405
+ID405B06,"Harrisburg PA",ID405
+ID405B07,"New Castle PA",ID405
+ID405B09,"Pittsburgh West PA",ID405
+ID409B01,"Cleveland OH",ID409
+ID409B02,"Akron OH",ID409
+ID409B03,"Columbus East OH",ID409
+ID409B04,"Columbus OH",ID409
+ID409B05,"Toledo OH",ID409
+ID409B06,"Dayton OH",ID409
+ID409B07,"Cincinnati OH",ID409
+ID410B01,"Detroit North MI",ID410
+ID410B02,"Detroit South MI",ID410
+ID410B03,"Grand Rapids MI",ID410
+ID410B04,"Kalamazoo MI",ID410
+ID410B05,"Fort Wayne IN",ID410
+ID410B06,"Indianapolis IN",ID410
+ID410B07,"Bloomington IN",ID410

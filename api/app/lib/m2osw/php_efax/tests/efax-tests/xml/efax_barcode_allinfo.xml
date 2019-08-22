@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Test that we can read a file with everything -->
+<Barcode>
+    <Key>All Info Test</Key>
+    <AdditionalInfo>
+        <ReadSequence>184</ReadSequence>
+        <ReadDirection>Left/Right</ReadDirection>
+        <Symbology>Greek3</Symbology>
+        <CodeLocation>
+            <PageNumber>3</PageNumber>
+            <PageCoordinates>
+                <StartEdge>
+                    <XStartPointA>1.03</XStartPointA>
+                    <YStartPointA>2.06</YStartPointA>
+                    <XStartPointB>3.09</XStartPointB>
+                    <YStartPointB>4.12</YStartPointB>
+                </StartEdge>
+                <EndEdge>
+                    <XEndPointA>12.001</XEndPointA>
+                    <YEndPointA>13.207</YEndPointA>
+                    <XEndPointB>14.903</XEndPointB>
+                    <YEndPointB>15.008</YEndPointB>
+                </EndEdge>
+            </PageCoordinates>
+        </CodeLocation>
+    </AdditionalInfo>
+</Barcode>
